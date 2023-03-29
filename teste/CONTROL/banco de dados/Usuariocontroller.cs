@@ -68,6 +68,33 @@ namespace CONTROL
             }
 
         }
+        public bool alterar_usuario(Usuario US)
+        {
+            try
+            {
+                altera alt = new altera();
+                string sql = "update usuario set nome = @nome, email = @email, fone= @fone where cod_usuario = @cod";
+                string[] campos = { "@nome", "@email", "@fone" };
+                string[] valor = { US.GetNome(), US.Getemail(), US.Getfone()};
+                if (alt.alterar(campos, valor, sql,US.Getcod()) >= 1)
+                {
+                    resultado = true;
+
+                }
+                else
+                {
+                    resultado = false;
+
+                }
+                return resultado;
+            }
+            catch (System.Exception ex)
+            {
+                throw new System.Exception(ex.Message);
+
+            }
+
+        }
     }
 }
 

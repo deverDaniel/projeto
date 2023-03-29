@@ -40,6 +40,7 @@
             this.TXTfone = new System.Windows.Forms.TextBox();
             this.Cadastrar = new System.Windows.Forms.Button();
             this.btn_excluir = new System.Windows.Forms.Button();
+            this.btn_alterar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cod
@@ -143,11 +144,22 @@
             this.btn_excluir.UseVisualStyleBackColor = true;
             this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
             // 
+            // btn_alterar
+            // 
+            this.btn_alterar.Location = new System.Drawing.Point(329, 179);
+            this.btn_alterar.Name = "btn_alterar";
+            this.btn_alterar.Size = new System.Drawing.Size(75, 23);
+            this.btn_alterar.TabIndex = 13;
+            this.btn_alterar.Text = "alterar";
+            this.btn_alterar.UseVisualStyleBackColor = true;
+            this.btn_alterar.Click += new System.EventHandler(this.btn_alterar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_alterar);
             this.Controls.Add(this.btn_excluir);
             this.Controls.Add(this.Cadastrar);
             this.Controls.Add(this.TXTfone);
@@ -182,6 +194,7 @@
         private System.Windows.Forms.TextBox TXTfone;
         private System.Windows.Forms.Button Cadastrar;
         private System.Windows.Forms.Button btn_excluir;
+        private System.Windows.Forms.Button btn_alterar;
     }
 }
 

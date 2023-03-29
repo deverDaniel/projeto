@@ -16,3 +16,9 @@ C:\Users\Aluno\Documents\GitHub\aulasDS\teste\MODEL\obj\Debug\MODEL.csprojAssemb
 C:\Users\Aluno\Documents\GitHub\aulasDS\teste\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Documents\GitHub\aulasDS\teste\MODEL\obj\Debug\MODEL.dll
 C:\Users\Aluno\Documents\GitHub\aulasDS\teste\MODEL\obj\Debug\MODEL.pdb
+C:\Users\Aluno\Documents\GitHub\projeto\teste\MODEL\bin\Debug\MODEL.dll
+C:\Users\Aluno\Documents\GitHub\projeto\teste\MODEL\bin\Debug\MODEL.pdb
+C:\Users\Aluno\Documents\GitHub\projeto\teste\MODEL\obj\Debug\MODEL.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\GitHub\projeto\teste\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\GitHub\projeto\teste\MODEL\obj\Debug\MODEL.dll
+C:\Users\Aluno\Documents\GitHub\projeto\teste\MODEL\obj\Debug\MODEL.pdb

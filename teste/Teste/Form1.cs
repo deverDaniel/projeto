@@ -53,11 +53,33 @@ namespace Teste
             //se usuario foi cadastrado então...
             if (usu.deletar_usuario(us) == true)
             {
-                MessageBox.Show("cadastro feito com sucesso");
+                MessageBox.Show("cadastro excluido com sucesso");
             }
             else
             {
-                MessageBox.Show("falha ao realizar o cadastro");
+                MessageBox.Show("falha ao excluir cadastro");
+            }
+
+        }
+
+        private void btn_alterar_Click(object sender, EventArgs e)
+        {
+            Usuario us = new Usuario();
+            //atribuo os valores no objeto estanciado
+            us.setnome(TXTnome.Text);
+            us.setemail(TXTemail.Text);
+            us.setfone(TXTfone.Text);
+            us.setcod(TXTcod.Text);
+            //crio um objeto controlle usuario
+            Usuariocontroller usu = new Usuariocontroller();
+            //se usuario foi cadastrado então...
+            if (usu.alterar_usuario(us) == true)
+            {
+                MessageBox.Show("alteração feita com sucesso");
+            }
+            else
+            {
+                MessageBox.Show("alteração feita com sucesso");
             }
 
         }
