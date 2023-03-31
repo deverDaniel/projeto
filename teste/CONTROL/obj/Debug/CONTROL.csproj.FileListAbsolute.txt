@@ -117,8 +117,8 @@ C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\bin\Debug\System.Buffers.x
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\bin\Debug\System.Memory.xml
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\obj\Debug\CONTROL.csproj.AssemblyReference.cache
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\obj\Debug\CONTROL.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\obj\Debug\CONTROL.csproj.CopyComplete
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\obj\Debug\CONTROL.dll
 C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\obj\Debug\CONTROL.pdb
+C:\Users\Aluno\Documents\GitHub\projeto\teste\CONTROL\obj\Debug\CONTROL.csprojAssemblyReference.cache

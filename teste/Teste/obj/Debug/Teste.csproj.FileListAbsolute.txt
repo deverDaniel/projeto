@@ -140,8 +140,6 @@ C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\bin\Debug\System.Buffers.xml
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\bin\Debug\System.Memory.xml
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.csproj.AssemblyReference.cache
-C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.csproj.SuggestedBindingRedirects.cache
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.Form1.resources
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.Properties.Resources.resources
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.csproj.GenerateResource.cache
@@ -149,3 +147,4 @@ C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.csproj.CoreC
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.csproj.CopyComplete
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.exe
 C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.pdb
+C:\Users\Aluno\Documents\GitHub\projeto\teste\Teste\obj\Debug\Teste.csprojAssemblyReference.cache

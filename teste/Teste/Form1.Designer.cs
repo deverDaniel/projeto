@@ -165,6 +165,7 @@
             this.combo_perfil.Name = "combo_perfil";
             this.combo_perfil.Size = new System.Drawing.Size(121, 21);
             this.combo_perfil.TabIndex = 14;
+            this.combo_perfil.SelectedIndexChanged += new System.EventHandler(this.combo_perfil_SelectedIndexChanged);
             // 
             // label5
             // 

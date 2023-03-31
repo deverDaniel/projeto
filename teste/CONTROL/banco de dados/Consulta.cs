@@ -19,7 +19,7 @@ namespace CONTROL
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = sql;
             //fazer a consulta da informação passada pela query
-            MySqlDataAdapter dados = new MySqlDataAdapter(cmd);
+            MySqlDataAdapter dados = new MySqlDataAdapter(cmd);//
             dados.Fill(dt);
             conn.Close();
             return dt;

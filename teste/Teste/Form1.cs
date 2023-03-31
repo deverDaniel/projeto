@@ -15,12 +15,23 @@ namespace Teste
 {
     public partial class Form1 : Form
     {
+        int cod_perfil = -1;
         public Form1()
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Consulta cons = new Consulta();
+            
+  
+            dt_view.DataSource = cons.consultar("Select * from usuario");//metodo para receber os dados da consulta
+            combo_perfil.DataSource = cons.consultar("Select * from perfil");//metodo para obter os dados da consulta
+            combo_perfil.DisplayMember = "nome";//exibi o nome do registro
+            combo_perfil.ValueMember = "cod_perfil";//guarda id do registro
 
-      
+        }
+
 
         private void Cadastrar_Click(object sender, EventArgs e)
         {
@@ -84,16 +95,12 @@ namespace Teste
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        
+
+        private void combo_perfil_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Consulta cons = new Consulta();
-            dt_view.DataSource = cons.consultar("Select * from usuario");//metodo para receber os dados da consulta
-            combo_perfil.DataSource = cons.consultar("Select * from perfil");//metodo para obter os dados da consulta
-            combo_perfil.DisplayMember = "nome";//exibi o nome do registro
-            combo_perfil.ValueMember = "cod_perfil";//guarda id do registro
-
+            cod_perfil = Convert.ToInt32(((DataRowView)combo_perfil.SelectedItem)["cod_perfil"]);
+           
         }
-
-       
     }
 }
