@@ -41,6 +41,10 @@
             this.Cadastrar = new System.Windows.Forms.Button();
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_alterar = new System.Windows.Forms.Button();
+            this.combo_perfil = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dt_view = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dt_view)).BeginInit();
             this.SuspendLayout();
             // 
             // cod
@@ -154,11 +158,39 @@
             this.btn_alterar.UseVisualStyleBackColor = true;
             this.btn_alterar.Click += new System.EventHandler(this.btn_alterar_Click);
             // 
+            // combo_perfil
+            // 
+            this.combo_perfil.FormattingEnabled = true;
+            this.combo_perfil.Location = new System.Drawing.Point(344, 40);
+            this.combo_perfil.Name = "combo_perfil";
+            this.combo_perfil.Size = new System.Drawing.Size(121, 21);
+            this.combo_perfil.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(296, 40);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(29, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "perfil";
+            // 
+            // dt_view
+            // 
+            this.dt_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dt_view.Location = new System.Drawing.Point(499, 37);
+            this.dt_view.Name = "dt_view";
+            this.dt_view.Size = new System.Drawing.Size(240, 150);
+            this.dt_view.TabIndex = 16;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dt_view);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.combo_perfil);
             this.Controls.Add(this.btn_alterar);
             this.Controls.Add(this.btn_excluir);
             this.Controls.Add(this.Cadastrar);
@@ -174,6 +206,8 @@
             this.Controls.Add(this.cod);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dt_view)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,6 +229,9 @@
         private System.Windows.Forms.Button Cadastrar;
         private System.Windows.Forms.Button btn_excluir;
         private System.Windows.Forms.Button btn_alterar;
+        private System.Windows.Forms.ComboBox combo_perfil;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridView dt_view;
     }
 }
 

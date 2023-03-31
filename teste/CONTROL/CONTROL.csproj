@@ -76,8 +76,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="altera.cs" />
+    <Compile Include="banco de dados\altera.cs" />
     <Compile Include="banco de dados\Cadastro.cs" />
+    <Compile Include="banco de dados\Consulta.cs" />
     <Compile Include="banco de dados\excluir.cs" />
     <Compile Include="banco de dados\Conexao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
